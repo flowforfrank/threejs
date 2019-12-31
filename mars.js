@@ -10,7 +10,7 @@ const starsGeometry = new THREE.SphereGeometry(4, 32, 32);
 const starsMaterial = new THREE.MeshBasicMaterial();
 const starsMesh = new THREE.Mesh(starsGeometry, starsMaterial);
 
-const light	= new THREE.DirectionalLight(0xcccccc, 1);
+const light = new THREE.DirectionalLight(0xcccccc, 1);
 
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
